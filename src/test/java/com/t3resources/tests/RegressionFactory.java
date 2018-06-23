@@ -47,6 +47,7 @@ public class RegressionFactory {
 		t3jsfp.goBackToT3Resources();
 		//verify 3 locations
 		t3hp.varifyLocations();
+		driver.close();
 		driver.quit();
 	}
 
