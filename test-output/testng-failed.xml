@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.t3resources.testNGCases.testNGRegression">
+        <methods>
+          <include name="testEligibilityPageClose"/>
+          <include name="testClickTutionEligibilityLink"/>
+          <include name="beforeSuite"/>
+          <include name="oepnWebSiteForTesting"/>
+          <include name="launchBroswer"/>
+          <include name="quitBrowser"/>
+          <include name="setEligibilityFactoryPage"/>
+          <include name="closeBrowser"/>
+          <include name="testClickAndVerifyJavaPage"/>
+          <include name="afterMethod"/>
+          <include name="setHomeFactoryPage"/>
+          <include name="verifyT3HomePageFooterSection"/>
+          <include name="testEligibilityPageVerify"/>
+          <include name="testClickTutionMenuPage"/>
+          <include name="setJAVAFactoryPage"/>
+          <include name="setTutionFactoryPage"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.t3resources.testNGCases.testNGRegression -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
