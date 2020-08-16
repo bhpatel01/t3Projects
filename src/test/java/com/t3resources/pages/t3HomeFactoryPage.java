@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-//page factory
+//page factory added
 public class t3HomeFactoryPage {
 	public WebDriver driver;
 	
