@@ -13,6 +13,7 @@ import com.t3resources.pages.t3TuitionFactoryPage;
 
 public class RegressionFactory {
 
+	//main method
 	public static void main(String[] args) throws InterruptedException {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");		
